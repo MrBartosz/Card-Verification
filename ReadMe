@@ -1,0 +1,16 @@
+Opis zadania: 
+
+Stwórz moduł eksportujący z pomocą ES6 Modules funkcję checkCardNumber. Jako parametr funkcja
+przyjmuje numer karty będący liczbą, a następnie zwraca nazwę dostawcy karty bądź “Nieprawidłowy”.
+
+
+Wymagania: 
+
+Po ukończeniu, funkcja ma spełniać następujące wymagania:
+
+1. Wyjściem funkcji musi być ciąg znaków: “Mastercard”, “Visa”, “American Express” lub
+“Nieprawidłowy”.
+
+2. Funkcja zakłada, że inputem jest liczba. Nie bierze pod uwagę myślników bądź spacji w numerze karty.
+
+3. Funkcja zwraca właściwy wynik dla kart z listy Paypala dostępnej pod: przeprogramowani.pl/paypal.

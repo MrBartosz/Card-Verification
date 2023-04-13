@@ -1,0 +1,116 @@
+body {
+    background-image: linear-gradient(to right, #302c2c, #1c3a1c);
+  }
+
+  
+.title {
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    color: aliceblue;
+    font-family: 'Satisfy', cursive;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.credit-card {
+    width: 20rem;
+    background-image: linear-gradient(to bottom, #999494, #353533);
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.767);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit-card__number {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.credit-card__number input {
+    padding: 0.6rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.credit-card__button {
+    background-color: #25295200;
+    color: aliceblue;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.credit-card__button:hover {
+    background-color: #121213;
+}
+
+.result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.result {
+    margin: 0;
+	font-size: 1rem;
+	color: black;
+	padding: 0.8rem;
+	border-radius: 0.9rem;
+	background-color: #534f4f7a;
+    color: aliceblue;
+	width: 20rem;
+	height: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.samples {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.btn-sample1,
+.btn-sample2,
+.btn-sample3
+    {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #3f4c5a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-sample:hover {
+    background-color: #404044b6;
+}

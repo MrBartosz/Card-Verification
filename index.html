@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verification Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Check the type of your credit card</h1>
+        <div class="credit-card">
+            <div class="credit-card__number">
+                <label for="card-number">Provide card number:</label>
+                <input type="text" id="card-number" name="card-number" placeholder="0000 0000 0000 0000">
+            </div>
+            <button class="credit-card__button" type="submit">Check</button>
+        </div>
+        <div class="result-container">
+            <span class="result"></span>
+        </div>    
+        <div class="samples">
+            <p>Samples: </p>
+            <button class="btn-sample1">Mastercard - 5222222222222222</button>
+            <button class="btn-sample2">Visa - 4916123456789012</button>
+            <button class="btn-sample3">American Express - 371234567890123</button>
+        </div> 
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
